@@ -18,15 +18,15 @@ const Signin = () => {
                     <label className='text-xl font-bold'>Email</label>
                     <input className='border border-white h-16 rounded-xl px-4' type="email" />
                     
-                    <button className='bg-[#1ED760] text-black font-bold rounded-full h-16 cursor-pointer'>Continue</button>
+                    <button className='bg-[#1ED760] text-black font-bold rounded-full h-16 cursor-pointer hover:opacity-80' >Continue</button>
                     
                     <p className='text-center text-xl'>or</p>
                     
-                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:text-xl flex items-center justify-center'><FontAwesomeIcon icon={faGoogle} className='text-xl' />Continue with Google</button>
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center gap-8'><FontAwesomeIcon icon={faGoogle} className='text-xl' />Continue with Google</button>
                     
-                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:text-xl flex items-center justify-center'><FontAwesomeIcon icon={faApple} className='text-2xl' />Continue with Apple</button>
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center'><FontAwesomeIcon icon={faApple} className='text-2xl' />Continue with Apple</button>
 
-                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:text-xl flex items-center justify-center'><FontAwesomeIcon icon={faFacebook} className='text-2xl' />Continue with Facebook</button>
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center'><FontAwesomeIcon icon={faFacebook} className='text-2xl' />Continue with Facebook</button>
                 </div>
             </form>
             <p className='text-center text-gray-400 mt-14'>Don't have an account?</p>

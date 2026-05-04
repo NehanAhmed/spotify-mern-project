@@ -30,7 +30,7 @@ const Signup = () => {
                 </div>
             </form>
             <p className='text-center text-gray-400 mt-14'>Already have an account?</p>
-           <Link to='signin'> <p className='text-center text-lg font-bold cursor-pointer w-24 text-white mt-14 ml-240'>Log in</p></Link>
+           <Link to='/signin'> <p className='text-center text-lg font-bold cursor-pointer w-24 text-white mt-14 ml-240'>Log in</p></Link>
     </div>
 
 )
