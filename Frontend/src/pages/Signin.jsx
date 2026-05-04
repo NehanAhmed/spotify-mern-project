@@ -18,7 +18,7 @@ const Signin = () => {
                     <label className='text-xl font-bold'>Email</label>
                     <input className='border border-white h-16 rounded-xl px-4' type="email" />
                     
-                    <button className='bg-[#1ED760] text-black font-bold rounded-full h-16 cursor-pointer hover:opacity-80' >Continue</button>
+                    <button className='bg-[#1ED760] text-black font-semibold rounded-full h-16 cursor-pointer'>Continue</button>
                     
                     <p className='text-center text-xl'>or</p>
                     
