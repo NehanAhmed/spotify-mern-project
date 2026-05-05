@@ -121,6 +121,12 @@ const Signin = () => {
                         <FontAwesomeIcon icon={faFacebook} className='text-2xl' />
                         Continue with Facebook
                     </button>
+                    
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center gap-8'><FontAwesomeIcon icon={faGoogle} className='text-xl' />Continue with Google</button>
+                    
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center'><FontAwesomeIcon icon={faApple} className='text-2xl' />Continue with Apple</button>
+
+                    <button className='bg-transparent border border-white text-lg text-white font-bold rounded-full h-16 cursor-pointer hover:bg-[#1ED760] hover:border-0 flex items-center justify-center'><FontAwesomeIcon icon={faFacebook} className='text-2xl' />Continue with Facebook</button>
                 </div>
             </form>
             <p className='text-center text-gray-400 mt-14'>Don't have an account?</p>
